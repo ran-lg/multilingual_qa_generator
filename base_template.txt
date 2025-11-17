@@ -1,0 +1,21 @@
+@prompt_type=direct
+
+
+
+@prompt_type=direct definition1
+
+
+
+@prompt_type=direct definition2
+
+
+
+@prompt_type=direct
+
+
+
+@prompt_type=direct
+
+
+
+@prompt_type=direct
