@@ -1,8 +1,8 @@
 from sys import argv
 from datetime import datetime
 
-from os import listdir
-from os.path import exists
+from os import listdir, mkdir
+from os.path import exists, isdir
 from pathlib import Path
 
 from openai import OpenAI
@@ -49,6 +49,9 @@ def prompt_llm(client, user_prompt, system_prompt = None):
     return response.choices[0].message.content
     
 def main(lang = 'en'):
+    if not isdir(TEXT_FOLDER):
+        mkdir(TEXT_FOLDER)
+
     client = instantiate_llm(TEMPERATURE)   
 
     delete_existing_files(TEXT_FOLDER)
