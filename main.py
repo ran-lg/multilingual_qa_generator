@@ -91,13 +91,16 @@ def main(lang = 'en'):
                 
     all_q = ['Q', '\n']
     all_a = ['A', '\n']
+    all_qa = ['QA', '\n']
     
     for i, element in enumerate(data, 1):
             all_q.append(f"{i}) {element['q']}\n")
             all_a.append(f"{i}) {element['a']}\n")
-        
+            all_qa.append(f"{i}) {element['q']}\n")
+            all_qa.append(f"   {element['a']}\n")
+    
     with open(TXT_TARGET_FILENAME, 'w', encoding = 'utf-8') as f:
-        f.writelines(all_q + ['\n', '\n'] + all_a)
+        f.writelines(all_q + ['\n', '\n'] + all_a  + ['\n', '\n'] + all_qa)
     
     
     
