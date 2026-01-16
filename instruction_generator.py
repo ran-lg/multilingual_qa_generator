@@ -1,33 +1,40 @@
 import yaml
 from pathlib import Path
-from prompts.system_prompts import system_prompt_en, \
+from prompts.system_prompts import system_prompt_fr, \
+                                   system_prompt_en, \
                                    system_prompt_de, \
                                    system_prompt_pl, \
                                    system_prompt_vn
 
-from prompts.input_prompts import input_prompt1_en, \
+from prompts.input_prompts import input_prompt1_fr, \
+                                  input_prompt1_en, \
                                   input_prompt1_de, \
                                   input_prompt1_pl, \
                                   input_prompt1_vn, \
+                                  input_prompt2_fr, \
                                   input_prompt2_en, \
                                   input_prompt2_de, \
                                   input_prompt2_pl, \
                                   input_prompt2_vn
 
-from prompts.answer_prompts import answer_prompt1_en, \
+from prompts.answer_prompts import answer_prompt1_fr, \
+                                   answer_prompt1_en, \
                                    answer_prompt1_de, \
                                    answer_prompt1_pl, \
                                    answer_prompt1_vn, \
+                                   answer_prompt2_fr, \
                                    answer_prompt2_en, \
                                    answer_prompt2_de, \
                                    answer_prompt2_pl, \
                                    answer_prompt2_vn, \
+                                   answer_prompt3_fr, \
                                    answer_prompt3_en, \
                                    answer_prompt3_de, \
                                    answer_prompt3_pl, \
                                    answer_prompt3_vn
 
-from prompts.system_prompts import system_prompt_en, \
+from prompts.system_prompts import system_prompt_fr, \
+                                   system_prompt_en, \
                                    system_prompt_de, \
                                    system_prompt_pl, \
                                    system_prompt_vn

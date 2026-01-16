@@ -1,4 +1,7 @@
-direct_en: "The text contains several statements. Choose one at random and formulate a question to which this statement could be the answer."
+direct_fr: "Le texte contient plusieurs affirmations. Choisis-en une au hasard et formule une question à laquelle cette affirmation pourrait être la réponse."
+definition1_fr: "Ce texte contient des termes qu'il est utile de définir. Ces termes sont mis en évidence en gras à l'aide du Markdown (**exemple**). Choisis l'un de ces termes et formule une question basée sur les éléments de sa définition. La question doit inciter le lecteur à nommer le terme choisi."
+definition2_fr: "Ce texte mentionne des concepts qu'il aide à définir. Ces concepts sont mis en évidence en gras à l'aide du Markdown (**exemple**). Choisis l'un de ces concepts et pose une question sur sa nature. Cite la phrase du texte mentionnant le concept."
+direct_en : « Le texte contient plusieurs affirmations. Choisissez-en une au hasard et formulez une question à laquelle cette affirmation pourrait être la réponse."
 definition1_en: "This text contains terms that are useful to define. These terms are highlighted in bold using Markdown (**example**). Choose one of these terms and formulate a question based on elements of its definition. The question should prompt the reader to name the term."
 definition2_en: "This text mentions concepts that it helps to define. These concepts are highlighted in bold using Markdown (**example**). Choose one of these concepts and ask a question about its nature. Quote the text sentence containing the concept."
 direct_de: "Der Text enthält mehrere Aussagen. Wählen Sie eine davon nach dem Zufallsprinzip aus und formulieren Sie eine Frage, auf die diese Aussage die Antwort sein könnte."
